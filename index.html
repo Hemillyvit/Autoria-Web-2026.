@@ -26,9 +26,7 @@
             <a href="sobre.html">Sobre</a>
           </li>
           <li>
-            <a
-              href="https://github.com/Hemillyvit/Autoria-Web-2026."
-              target="_blank"
+            <a href="https://github.com/Hemillyvit/Autoria-Web-2026."target="_blank"
               >Github</a
             >
           </li>
@@ -38,24 +36,38 @@
 
     <br />
     
+    <!--
+     main:delimita o contéudo principal da página, único por documentos, 
+     facilitando navegação por leitores de tela 
+     -->
     <main>
+      <!-- 
+      section: seção temática do documento, geralmente com um título próprio 
+      -->
       <section>
         <h2>Seção 1</h2>
 
+        <!--
+         div: contêiner genérico em blocos, sem significado semântico próprio,
+         útil para agrupamentos quando nenhum dos elementos semânticos se aplica
+          -->
         <div>
-        <img
-        src="assets / imgs/foto.jpeg.jpeg"
-        alt="foto hemilly minha,sentada em um banco, em paisagem bem bonita"
-        />
+         <img src="assets / imgs/foto.jpeg.jpeg" alt="foto hemilly minha,sentada em um banco, em paisagem bem bonita"/>
         </div>
 
-       
+        <!--
+         article: bloco de conteúdo independente e reutilizável 
+          (post de blog, notícia, card de produto, comentário), 
+          que faz sentido fora do contexto imediato.  
+          -->
+          <article>
         <p>
           Lorem ipsum <strong>dolor</strong>, sit amet consectetur adipisicing
           elit. Odit, nam. Iure velit omnis dolor sunt quam ut sed reprehenderit
           veniam excepturi ea ab nihil, sapiente officia sint quae repudiandae?
           Saepe.
         </p>
+        </article>
       </section>
 
       <br />
@@ -90,16 +102,24 @@
       </section>
 
       <section>
+        <h2>Seção 4</h2>
+         <img src="https://github.com/Hemillyvit.png"
+         alt="avatar do Github"
+          />
       <p>O que fazer quando chegar no lab?</p>
       <ol>
         <li>Ligar o PC</li>
         <li>Iniciar a VM no Github Codespaces</li>
         <li>Prestar atenção no professor</li>
       </ol>
-      </section>
-
+     </section>
+      <br/>
     </main>
 
+    <!-- 
+    footer: rodapé da página ou de uma seção, com informações de autoria, 
+      direitos, links secundários, contatos, etc. 
+    -->
     <footer>
       <h3>IFRN- Campus Macau </h3>
       <p>Desenvolvido por Hemilly Vitória</p>
