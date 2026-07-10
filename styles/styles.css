@@ -1,29 +1,76 @@
-/* Seleçãp de elemento */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@300..700&display=swap");
 
-h2 { 
-    font-family: 'courier new', 'courier', monospace;
-    color: purple;
+:root {
+  --blue-slate: #495867;
+  --glaucous: #577399;
+  --sky: #bdd5ea;
+  --white: #f7f7ff;
+  --coral: #fe5f55;
+}
+
+body {
+  font-family: "Quicksand", "Arial", sans-serif;
+}
+
+/* Seleção de elemento */
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  color: var(--glaucous);
 }
 
 /* Seleção de id */
-#tabela { 
-    text-align: center;
-    background-color: pink
+#tabela {
+  text-align: center;
+  background-color: var(--coral);
+  color: var(--blue-slate);
 }
 
 /* Seleção de classe */
-.negrito { 
-    font-weight: bold;
+.negrito {
+  font-weight: bold;
 }
 
-    p.courier {
-       font-familly: 'courier new', 'courier', monospace;
-    }
+/* Seleção de elemento (p) que usa uma determinada classe (courier) */
+p.courier {
+  font-family: "Courier New", Courier, monospace;
+}
 
-h1,h2, h3 {
-    font-style:italic
+h1,
+h2,
+h3 {
+  font-family: "Lobster", "Times New Roman", Times, serif;
+  /* font-style: italic; */
 }
 
 form button {
-    background-color:brown
+  background-color: brown;
 }
+
+/* form input {
+  background-color: var(--blue-slate);
+  color: var(--sky);
+} */
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+#nav-sections ul {
+  list-style-type: none;
+}
+
+#nav-sections li {
+  display: inline-block; 
+} 
+ 
+
+
+
+
+
+
