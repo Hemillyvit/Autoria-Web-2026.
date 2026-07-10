@@ -8,6 +8,13 @@
   --coral: #fe5f55;
 }
 
+/* CSS Reset  */
+* {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Quicksand", "Arial", sans-serif;
 }
@@ -67,6 +74,46 @@ img {
 #nav-sections li {
   display: inline-block; 
 } 
+
+a {
+  text-decoration: none;
+ font-weight:bold ;
+  color:aqua;
+  background-color: var(--blue-slate);
+  border-radius: 5px;
+}
+a:hover {
+  color: var(--coral);
+  box-shadow:0 0 10px;
+
+}
+
+#nav-links ul {
+  list-style-type: none;
+}
+
+#nav-links li {
+  display: inline-block; 
+}
+
+a {
+  text-decoration: none;
+ font-weight:bold ;
+  color:pink;
+  background-color: var(--glaucous);
+  border-radius: 5px;
+} 
+a:hover {
+  color: var(--blue-slate);
+  box-shadow:0 0 10px;
+}
+
+.fonte-maior {
+  font-size: 49px;
+}
+
+ 
+
  
 
 
