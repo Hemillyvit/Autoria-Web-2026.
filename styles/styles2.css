@@ -38,6 +38,12 @@ h2,
     font-family: var(--fonte-titulo);
     color: var(--cor-primaria);
     font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid var(--cor-destaque);
+}
     
 }
 
@@ -51,9 +57,11 @@ h2,
 }
 
 nav ul {
+    nav ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding: 10px 0;
+    margin: 15px 0;
+}
 }
 
 nav ul li {
@@ -62,10 +70,12 @@ nav ul li {
 }
 
 nav a {
-    text-decoration: none;
+   text-decoration: none;
     color: var(--cor-destaque);
     font-weight: bold;
-    padding: 8px 12px;
+    padding: 10px 15px;
+    margin: 0 8px;
+    border: 1px solid var(--cor-destaque);
     transition: 0.3s;
 }
 
@@ -76,29 +86,37 @@ nav a:hover {
 }
 
 .card-programa {
-    background-color: var(purple);
+    background-color: var(--cor-card);
     border: 2px solid var(--cor-secundaria);
     border-radius: 8px;
-    padding: 15px;
-    margin: 15px 0;
+    padding: 10px 20px;
+    margin-bottom: 20px;
     font-size: 0.95rem;
 }
 
 #inicio {
     background-color: var(--cor-inicio);
     padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 }
 
 #programacao {
     background-color: var(--cor-programacao);
     border-left: 6px solid var(--cor-primaria);
-    padding: 20px;
+    padding: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 }
 
 #contato {
     background-color: var(--cor-contato);
     border-left: 6px solid var(--cor-hover);
-    padding: 20px;
+    padding: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 section {
