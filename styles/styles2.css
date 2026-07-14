@@ -1,0 +1,106 @@
+:root {
+  --cor-fundo: aqua;
+    --cor-texto:rgb(201, 12, 43);
+    --cor-primaria: #184b81;
+    --cor-secundaria: purple;
+    --cor-destaque: #ffc107;
+    --cor-card: #ffffff;
+    --cor-header-footer: #4d6a92;
+    --cor-inicio: #e3f2fd;
+    --cor-programacao: #f8f9fa;
+    --cor-contato: #fff8e1;
+    --cor-hover: #ff9800;
+    --fonte-corpo: Arial, Helvetica, sans-serif;
+    --fonte-titulo: Georgia, "Times New Roman", serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: var(--fonte-corpo);
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+header,
+footer {
+    background-color: var(--cor-header-footer);
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+h1,
+h2,
+.titulo-secao {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-primaria);
+    font-weight: bold;
+    
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2,
+.titulo-secao {
+    font-size: 1.6rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--cor-destaque);
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: var(--cor-hover);
+    color: white;
+    border-radius: 5px;
+}
+
+.card-programa {
+    background-color: var(purple);
+    border: 2px solid var(--cor-secundaria);
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 0.95rem;
+}
+
+#inicio {
+    background-color: var(--cor-inicio);
+    padding: 20px;
+}
+
+#programacao {
+    background-color: var(--cor-programacao);
+    border-left: 6px solid var(--cor-primaria);
+    padding: 20px;
+}
+
+#contato {
+    background-color: var(--cor-contato);
+    border-left: 6px solid var(--cor-hover);
+    padding: 20px;
+}
+
+section {
+    margin: 20px;
+}
